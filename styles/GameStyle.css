@@ -1,0 +1,967 @@
+/* 1. don't modify this style */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Poppins;
+    src: url("assets/fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("assets/fonts/Poppins-Bold.ttf");
+}
+@font-face {
+    font-family: Rubik;
+    src: url("assets/fonts/Rubik_0.otf");
+}
+body{
+    background-color: #3B2A9F;
+    overflow-x: hidden;
+
+}
+.Container{
+    max-width: 1440px;
+}
+.head{
+    background-color: #3B2A9F;
+    height: 100px;
+    width: 1438.77px;
+    left: 0.23px;
+    display: flex;
+    justify-content: end;
+}
+
+.Logo{
+    margin-right: auto;
+    width: 81.93px;
+    height: 45px;
+    margin-top: 25px;
+    margin-left: 59.18px;
+    color: white;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 29px;
+    font-weight: 800;
+    line-height: 44.51px;
+    text-align: left;
+
+
+
+}
+.Group3{
+    width: 673.2px;
+    height: 41.34px;
+    margin-top: 32px;
+    margin-bottom: 1.66px;
+    border-radius: 6px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.active_bar{
+    position: absolute;
+    top:71px ;
+    right: 585px;
+    width: 38.97px;
+    height: 4px;
+    border-radius: 20px 0 0 0;
+    display: flex;
+}
+
+.Rectangle28{
+
+    width: 5px;
+    height: 4px;
+    gap: 0;
+    border-radius: 20px 0px 0px 0px;
+    background-color: #FA8305;
+    margin-left:3px ;
+
+}
+
+.Rectangle27{
+    width: 30.97px;
+    height: 4px;
+    gap: 0px;
+    border-radius: 20px 0px 0px 0px;
+    background-color: #FA8305;
+
+}
+
+.Group2{
+    list-style-type: none;
+    display: flex;
+    width: 505.41px;
+    height: 24.2px;
+    gap: 88px;
+    margin-top: 8px;
+    padding-right: 88px;
+}
+.Group2 li{
+
+
+}
+.Group2 li a{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.Group1{
+
+    width: 131.66px;
+    height: 41.34px;
+    margin-left: 36.13px;
+    gap: 0px;
+    border-radius: 6px 6px;
+    background-color:#FA8305;
+    order: 2;
+}
+.Group1 p{
+
+    margin-top: 10px;
+    margin-bottom: 11.34px;
+    margin-left: 24.84px;
+    width: 81px;
+    height: 20px;
+    gap: 0px;
+    color: white;
+    font-family: Poppins , sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: center;
+
+
+}
+
+.Group8{
+    margin-left: 114px;
+    margin-top: 110px;
+    width: 425px;
+    height: 450px;
+    gap: 0px;
+    border-radius: 40px 40px;
+
+}
+
+.Group7{
+    background-color: #FA8305;
+    margin-top: 57.16px;
+    width: 176px;
+    height: 47.84px;
+    gap: 0px;
+    border-radius: 40px 40px;
+}
+
+.Group7 a{
+    text-decoration: none;
+    width: 100px;
+    height: 21px;
+    margin-bottom: 16px;
+    margin-top: 10.48px;
+    margin-left: 19px;
+    gap: 0px;
+    font-family: Poppins ,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+    display: inline-block;
+}
+.arrow6{
+    width: 12px;
+    height: 10.29px;
+    margin-left: 17.71px;
+    margin-top: 19.83px;
+    gap: 0px;
+    angle: 180 deg;
+
+
+}
+
+
+.text1{
+    width: 99px;
+    height: 25px;
+    gap: 0px;
+    font-family: Poppins , sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25.02px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+}
+.text1 span{
+    font-family: Poppins ,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25.02px;
+    text-align: left;
+    color: rgba(250, 131, 5, 1);
+
+}
+
+.text2{
+
+    width: 425px;
+    height: 162px;
+    margin-top: 38px;
+    gap: 0px;
+    font-family: Poppins , sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 54.15px;
+    text-align: left;
+    color: white;
+
+
+}
+
+.text3{
+    margin-top: 25px;
+    width: 414px;
+    height: 95px;
+    gap: 0px;
+    font-family: Poppins ,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 31.28px;
+    text-align: left;
+    color: #FFFFFF;
+
+
+}
+
+.pic{
+    margin-top: 21px;
+    margin-left: 166px;
+    position: absolute;
+    top: 121px;
+    left:701px ;
+    width: 739px;
+    height: 656px;
+    gap: 0px;
+
+
+}
+.Why-work{
+    width: 237px;
+    height: 45px;
+    gap: 0px;
+    font-family: Poppins ,sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 45.12px;
+    text-align: left;
+    margin-top: 257px;
+    margin-left: 110px;
+    color: white;
+
+}
+
+.black-box1{
+    width: 378px;
+    height: 348px;
+    gap: 0px;
+    border-radius: 20px 20px;
+    background-color: #1C140F;
+    margin-top: 63px;
+    margin-left: 110px;
+    display: inline-block;
+}
+
+.black-box2{
+    width: 378px;
+    height: 348px;
+    gap: 0px;
+    border-radius: 20px 20px;
+    background-color: #1C140F;
+    margin-top: 63px;
+    margin-left: 43px;
+    display: inline-block;
+}
+
+.black-box3{
+    width: 378px;
+    height: 348px;
+    gap: 0px;
+    border-radius: 20px 20px;
+    background-color: #1C140F;
+    margin-top: 63px;
+    margin-left: 43px;
+    display: inline-block;
+}
+.LoremBoxB1{
+    width: 140px;
+    height: 39px;
+    margin-top: 64px;
+    margin-left: 37px;
+    gap: 0px;
+    border-radius: 8px 8px;
+    background-color: #B000DC1C;
+    padding:7px 35px 6px 14px ;
+}
+.LoremBoxB2{
+    width: 140px;
+    height: 39px;
+    margin-top: 64px;
+    margin-left: 37px;
+    gap: 0px;
+    border-radius: 8px 8px;
+    background-color:#DC42001C;
+    padding:7px 35px 6px 14px ;
+}
+.LoremBoxB3{
+    width: 140px;
+    height: 39px;
+    margin-top: 64px;
+    margin-left: 37px;
+    gap: 0px;
+    border-radius: 8px 8px;
+    background-color:#00DC8D1C;
+;
+
+    padding:7px 35px 6px 14px ;
+}
+.LoremBoxp{
+    width: 91px;
+    height: 26px;
+    gap: 0px;
+    font-family: Poppins ,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26.25px;
+    text-align: left;
+    color: white;
+
+
+}
+.LoremTitle{
+    width: 133px;
+    height: 38px;
+    gap: 0px;
+    font-family: Poppins ,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 37.5px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+.Loremp{
+    margin-top: 16px;
+    width: 304px;
+    height: 108px;
+    gap: 0px;
+    font-family: Poppins ,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26.25px;
+    text-align: left;
+    color: white;
+
+}
+.LoremBox2{
+    margin-top: 19px;
+    margin-left: 37px;
+    width: 304px;
+    height: 162px;
+    gap: 0px;
+}
+.bigBlackBox{
+    width: 1440px;
+    height: 603px;
+    margin-top: 147px;
+    gap: 0px;
+    background-color: #1C140F;
+
+}
+
+.pictureBlackBox{
+    width: 496px;
+    height: 490px;
+    gap: 0px;
+    border-radius: 24px 24px 0px 0px;
+    margin-top: 113px;
+    margin-left: 110px;
+    display: inline-block;
+}
+.bigBlackBox p{
+
+    width: 105px;
+    height: 32px;
+    gap: 0px;
+    font-family: Poppins ,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32.4px;
+    text-align: left;
+    position: absolute;
+    top: 1658px;
+    left: 701px;
+    color: white;
+
+}
+.textBox{
+
+    width: 536px;
+    height: 323px;
+    gap: 0px;
+    position: absolute;
+    top: 1704px;
+    left: 701px;
+
+}
+.textBox h1{
+    width: 531px;
+    height: 150px;
+    gap: 0px;
+    font-family: Poppins ,sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 44.1px;
+    text-align: left;
+    color: white;
+}
+.textBoxP{
+    margin-top: 14px;
+    width: 536px;
+    height: 159px;
+    gap: 0;
+    font-family: Poppins ,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: left;
+    color: white;
+}
+.OurTeam{
+    margin-top: 148px;
+    margin-left: 110px;
+    width: 1264px;
+    height: 351px;
+    gap: 0px;
+
+
+}
+.OurTeam p{
+    width: 139px;
+    height: 45px;
+    gap: 0px;
+    font-family: Poppins ,sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 45.12px;
+    text-align: left;
+    color: white;
+
+}
+.Boxes{
+    margin-top: 53px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Name1{
+    width: 295px;
+    height: 253px;
+    gap: 0px;
+    border-radius: 20px 20px;
+    background-color:#1C140F;
+    display: flex;
+    flex-direction: column;
+}
+.textUnderPic{
+    width: 106px;
+    height: 76px;
+    gap: 0px;
+    margin-left: 96px;
+}
+.Bill{
+    width: 123px;
+    height: 123px;
+    gap: 0px;
+    margin-top: 35px;
+    margin-left: 86px;
+}
+.Beverly{
+    width: 117px;
+    height: 117px;
+    margin-top: 41px;
+    margin-left: 89px;
+    gap: 0px;
+
+}
+.Claudia{
+    width: 109px;
+    height: 109px;
+    margin-top: 45px;
+    margin-left: 93px;
+    margin-bottom: 4px;
+    gap: 0px;
+
+
+
+}
+.Avatar{
+    width: 106px;
+    height: 106px;
+    margin-top: 47px;
+    margin-left: 95px;
+    margin-bottom: 5px;
+    gap: 0px;
+
+
+}
+
+.YorName{
+    width: 106px;
+    height: 38px;
+    gap: 0px;
+    font-family: Poppins ,sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 38.48px;
+    text-align: left;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.coo{
+    width: 38px;
+    height: 32px;
+    gap: 0px;
+    font-family: Poppins ,sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32.4px;
+    text-align: left;
+    color:#E8E8E8;
+    margin-left: 33px;
+;
+}
+.subscribe{
+    width: 1170px;
+    height: 392px;
+    margin-top: 157px;
+    margin-left: 135px;
+    gap: 0px;
+}
+.lorem_top{
+    width: 545px;
+    height: 129px;
+    gap: 0px;
+}
+
+.lorem_top p{
+
+    width: 545px;
+    height: 57px;
+    gap: 0px;
+    font-family: Poppins ,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: white;
+    margin-top: 32px;
+
+}
+.lorem_top h1{
+    width: 209px;
+    height: 40px;
+    gap: 0px;
+    font-family: Poppins ,sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 56.25px;
+    text-align: left;
+    color: white;
+
+}
+
+.Black-box{
+    display: flex;
+    width: 1170px;
+    height: 189px;
+    margin-top: 74px;
+    gap: 0px;
+    border-radius: 15px 15px;
+    background-color: black;
+
+}
+
+.Stay_in_loop{
+    width: 636px;
+    height: 107px;
+    gap: 0px;
+    margin-top: 40px;
+    margin-left: 56px;
+    margin-right: 42.32px;
+}
+.h1_stay{
+    width: 303px;
+    height: 45px;
+    gap: 0px;
+    font-family: Poppins , sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;
+    color: white;
+}
+.Lorem-text{
+
+    width: 636px;
+    height: 52px;
+    gap: 0px;
+    color: white;
+    font-family: Poppins , sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: left;
+    margin-top: 10px;
+
+
+}
+
+
+.input-email-Box{
+
+    width: 385.68px;
+    height: 48px;
+    gap: 0px;
+    border-radius: 8px 8px;
+    margin-top: 71px;
+    margin-right: 50px;
+    background-color: white;
+    display: flex;
+}
+.continue-text{
+    width: 105px;
+    height: 37px;
+    gap: 0px;
+    border-radius: 8px 8px;
+    background-color: #FA8305;
+    margin-top: 6px;
+    margin-right: 6.24px;
+    margin-left: 98.8px;
+
+}
+.continue-text a{
+    text-decoration: none;
+    width: 69.3px;
+    height: 20px;
+    gap: 0px;
+    font-family: Poppins ,sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 8px;
+    left: 22.2px;
+
+
+}
+
+.enter-email{
+    width: 155.1px;
+    height: 20px;
+    margin-top: 14px;
+    margin-left: 20.55px;
+    gap: 0px;
+
+}
+.enter-email p{
+    font-family: Poppins , sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 19.5px;
+    text-align: center;
+    color: #898989;
+}
+footer {
+    width: 100%;
+    height: 376px;
+    left: -1px;
+    gap: 0px;
+    background-color: black;
+    margin-top: 163px;
+    /*padding-top: 79px;*/
+
+}
+.Contents{
+    width:100%;
+    height: 268px;
+    gap: 0px;
+    position: relative;
+    top: 79px;
+    /*border: red 5px solid;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+}
+.LogoFooter{
+    width: 68px;
+    height: 37px;
+    gap: 0px;
+    font-family: Poppins , sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36.84px;
+    text-align: left;
+    color: white;
+    /*border: #5141AA 3px solid;*/
+    position: absolute;
+    top: 3401px;
+    left: 105px;
+
+
+}
+.box-top{
+    width: 1219px;
+    height: 161px;
+    gap: 0px;
+    margin-left: 101px;
+    margin-right: 120px;
+}
+
+
+.line{
+    height: 0px;
+    gap: 0px;
+    border: 0.8px solid #D2D2D2;
+    margin-top: 53px;
+}
+
+
+.Down-text{
+    width: 300px;
+    height: 25px;
+    gap: 0px;
+    font-family: Poppins , sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24.78px;
+    text-align: left;
+    color: white;
+    margin-top: 29px;
+    margin-left: 588px;
+
+}
+span{
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 24.78px;
+    text-align: left;
+
+}
+.ContactUs{
+    width: 282px;
+    height: 161px;
+    gap: 0px;
+    position: absolute;
+    left: 771px;
+
+
+}
+.Logos{
+    width: 184px;
+    height: 34px;
+    position: absolute;
+    top: 117px;
+    left: 1136px;
+    display: flex;
+    justify-content: space-between;
+}
+.AboutUs{
+    width: 76px;
+    height: 26px;
+    gap: 0px;
+    font-family: Poppins , sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25.5px;
+    text-align: left;
+    color: white;
+    position: absolute;
+    left: 551px;
+}
+
+.Logo-{
+    width: 196px;
+    height: 23px;
+    gap: 0px;
+    font-family: Poppins , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+    position: absolute;
+    top: 129px;
+    left: 101px;
+
+}
+.box-top ul{
+    width: 372px;
+    height: 117px;
+    gap: 0px;
+    position: absolute;
+    top: 41px;
+    left: 551px;
+
+}
+.box-top ul li{
+    font-family: Poppins , sans-serif;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29.81px;
+    text-align: left;
+    color: white;
+
+}
+.LoremFooter{
+    width: 372px;
+    height: 58px;
+    gap: 0px;
+    font-family: Poppins ,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+    position: absolute;
+    left: 101px;
+    top: 46px;
+}
+.ContactUsTitle{
+    width: 94px;
+    height: 26px;
+    top: 4054px;
+    left: 770px;
+    gap: 0px;
+    font-family: Poppins , sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25.5px;
+    text-align: left;
+    color: white;
+
+}
+.ContactUsLorem{
+    width: 282px;
+    height: 76px;
+    gap: 0px;
+    font-family: Poppins ,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 11px;
+
+}
+.numberContactUs{
+    width: 141px;
+    height: 28px;
+    gap: 0px;
+    font-family: Poppins ,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+
+}
+
+
+.circle{
+    width: 34px;
+    height: 34px;
+    gap: 0px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.15);
+    background: rgba(255, 255, 255, 1);
+}
+
+.insta-vector{
+    width: 13px;
+    height: 13px;
+    gap: 0px;
+    position: relative;
+    top:9px ;
+    left: 10px;
+}
+
+.face-vector{
+    width: 12px;
+    height: 12px;
+    gap: 0px;
+    position: relative;
+    top: 9px;
+    left: 10px;
+}
+.tw-vector{
+    width: 13px;
+    height: 13px;
+    position: relative;
+    top: 10.11px;
+    left: 11.22px;
+    gap: 0px;
+}
+
+.lin-vector{
+    width: 11px;
+    height: 11px;
+    gap: 0px;
+    position: relative;
+    top:8px;
+    left:11px ;
+}
+/* 2. we use :root for default variables */
+:root {
+    /* --"somekey-attr": "somevalue" i.e : */
+    --primary-color:#3B2A9F;
+    --secondary-color:#FA8305;
+    --primary-100:#5141AA;
+    --black-700: #000;
+    --brown-color:#1C140F;
+
+
+}
+/* 3. and we use it like this */
+.elementOne {
+    /* var(--"somekey-attr") */
+
+    color: var(--brown-color);
+    color: var(--primary-100);
+    color: var(--secondary-color);
+    color: var(--primary-color);
+    color: var(--black-700);
+    background-color: var(--black-700);
+}
+
+/* good luck */
